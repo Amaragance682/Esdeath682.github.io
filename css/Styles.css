@@ -17,6 +17,10 @@ main{
 	color: #444;
 	font: 400 1em/1.5"Open Sans",sans-serif;
 }
+img {
+	max-width: 100%;
+	height: auto;
+}
 /*grid*/
 .col-2{
 	display: grid;
@@ -58,11 +62,16 @@ header h1{
 	margin: 2em 0 1em 0;
 }
 .topnav{
-	margin-top: 5.8em;
+	margin-top: 2em;
 	display: flex;
 	justify-content: flex-end;
-	text-align: center;
+	padding-right: 20px;
+	justify-content: center;
 	
+	
+}
+.topmain li{
+	list-style-type: none;
 }
 .topnav a{
 	display: block;
@@ -103,9 +112,11 @@ footer li {
 .innermenu{
 	background-color: rgb(145, 34, 7);
 	display: flex;
+	flex-flow: column;
 	justify-content: center;
 	border-radius:  5px;
 	color: aqua;
+
 }
 .innermenu a{
 	color: #fff;
@@ -117,10 +128,11 @@ footer li {
 .innermenu a:last-child{
 	border: none;
 }
-.div-title-img{
-	align-self: auto;
-	object-fit: cover;
-	object-position: center;
+.title-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 .innermenu a:hover, .innermenu a:active{
 	color:#0064ce;
@@ -165,9 +177,6 @@ blockquote u1{
 .logo{
 	height: 40px;
 }
-.div-title-img{
-	text-align: center;
-}
 .map{
 	height: 300px;
 	width: 100%;
@@ -188,6 +197,53 @@ blockquote u1{
 	object-position: center;
 	text-align: center;
 }
-.section{
+@media screen and (min-width: 30em){
+	.innermenu{
+		
+	}
+	
+	}
+@media screen and (min-width: 37.5em){
+	.innermenu{
 
+	}
+}
+@media screen and (min-width: 48em){
+	.innermenu{
+		
+	}
+	
+	}
+@media screen and (min-width: 60em){
+	.innermenu{
+		border-radius:  5px;
+		
+	}
+		
+	}
+@media screen and (min-width: 80em){
+	.innermenu{
+		flex-flow: row;
+	}
+		
+	}
+.h1{
+	text-align: center;
+}
+.p{
+	font-family: 'Times New Roman', Times, serif;
+}
+.title-img{
+	padding-top: 5em;
+	justify-content: center;
+	
+}
+.maintitle{
+	padding-top: 2em;
+	justify-content: center;
+}
+.gluggi{
+	width: 560;
+	height: 315px;
+	
 }
