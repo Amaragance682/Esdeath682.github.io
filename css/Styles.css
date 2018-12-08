@@ -118,18 +118,20 @@ footer li {
 	justify-content: center;
 	border: #fff;
 	border-radius:  5px;
-	color: aqua;
+	color:white;
 
 }
 .innermenu a{
 	color: #fff;
 	text-decoration: none;
 	padding: 2em 3em;
-	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	
 }
-.innermenu a:last-child{
-	border-right: white;
+.innermenu{
+	display: flex;
+	flex-flow: column;
+	border-bottom: white;
 }
 
 .title-img{
@@ -201,56 +203,10 @@ blockquote u1{
 	object-position: center;
 	text-align: center;
 }
-@media screen and (min-width: 30em){
-	iframe.gluggi{
-
-	
-	}
-	.innermenu a{
-		border: 0;
-		border-bottom: 1px solid;
-	
-	}
-@media screen and (min-width: 37.5em){
-	iframe.gluggi{
-
-	}
-	.innermenu a{
-		border: 0;
-		border-bottom: 1px solid;
-	}
+.gluggi{
+	height: 100px;
+	width: 180px;
 }
-@media screen and (min-width: 48em){
-	iframe.gluggi{
-	}
-	.innermenu a{
-		border: 0;
-		border-bottom: 1px solid;
-	}
-	}
-@media screen and (min-width: 60em){
-	.innermenu{
-		border-radius:  5px;
-		
-	}
-	iframe.gluggi{
-	}
-		
-	}
-@media screen and (min-width: 80em){
-	.innermenu{
-		flex-flow: row;
-		border-left: white;
-		
-		
-	}
-	iframe.gluggi{
-		height: 560px;
-		width: 315px;
-		padding: 3em;
-	}
-	
-	}
 .h1{
 	text-align: center;
 }
@@ -266,11 +222,7 @@ blockquote u1{
 	padding-top: 2em;
 	justify-content: center;
 }
-.gluggi{
-	width: 560;
-	height: 315px;
-	
-}
+
 .li{
     display: none;
     text-align: none;
@@ -286,7 +238,60 @@ blockquote u1{
 	padding-top: 3em;
 }
 
-.gluggi{
-	height: 315px;
-	width: 560px;
+@media screen and (min-width: 30em){
+	.innermenu a{
+		border: 0;
+		border-left: 1px solid;
+	}
+	.gluggi{
+		height: 100px;
+		width: 180px;
+	}
+}
+@media screen and (min-width: 37.5em){
+	.gluggi{
+
+	}
+	.innermenu a{
+		border: 0;
+		border-left: 1px solid;
+	}
+
+}
+@media screen and (min-width: 48em){
+	.gluggi{
+		height: 300px;
+		width: 500px;
+	}
+	.innermenu a{
+		border: 0;
+		border-bottom: 1px solid;
+		display: flex;
+		flex-flow: row;
+	}
+}
+@media screen and (min-width: 60em){
+	.innermenu{
+		border-radius:  5px;
+		
+	}
+
+	.gluggi{
+		width: 600px;
+		height: 350px;
+	}
+}
+@media screen and (min-width: 80em){
+	.innermenu i{
+		display: flex;
+		flex-flow: row;
+		border-left: white;
+		
+		
+	}
+	.gluggi{
+		height: 550px;
+		width: 800px;
+		padding: 3em;
+	}
 }
