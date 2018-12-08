@@ -10,7 +10,7 @@ main{
 .body2{
 	background-color: rgb(143, 3, 3);
 	color: black;
-	font: 400 1em/1.5"Open Sans",sans-serif;
+	font: 400 0.9em/1.5"Open Sans",sans-serif;
 }
 .body3{
 	background-color: rgb(33, 114, 96);
@@ -44,7 +44,7 @@ img {
 .beige, .beige2{
 	background-color: black;
 	padding: 2em;
-	border: radius 50%;
+
 	border-bottom: 1px solid red;
 }
 .beige2{
@@ -204,8 +204,8 @@ blockquote u1{
 	text-align: center;
 }
 .gluggi{
-	height: 100px;
-	width: 180px;
+	height: 130px;
+	width: 220px;
 }
 .h1{
 	text-align: center;
@@ -250,6 +250,8 @@ blockquote u1{
 }
 @media screen and (min-width: 37.5em){
 	.gluggi{
+		height: 100px;
+		width: 18px;
 
 	}
 	.innermenu a{
@@ -265,15 +267,26 @@ blockquote u1{
 	}
 	.innermenu a{
 		border: 0;
-		border-bottom: 1px solid;
+		border-left: 1px solid;
 		display: flex;
 		flex-flow: row;
+	}
+	.innermenu a:last-child{
+		border-right: white;
 	}
 }
 @media screen and (min-width: 60em){
 	.innermenu{
 		border-radius:  5px;
+		display: flex;
+		flex-flow: row;
+		border: 0;
+		border-left: white;
+
 		
+	}
+	.innermenu :last-child{
+		border-right: white;
 	}
 
 	.gluggi{
@@ -294,4 +307,7 @@ blockquote u1{
 		width: 800px;
 		padding: 3em;
 	}
+}
+.beige{
+	background-image: url("DO8MFNvX4AI0_Wv.jpg");
 }
