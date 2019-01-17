@@ -3,3 +3,7 @@ cd - Change directory
 ls - Lista efni i folder
 pwd - print working directory
 mkdir - byr til directory
+Hvað gera eftirfarandi Git skipanir?
+git clone- byr til alveg eins file
+git status- synir upplysingar um vinnandi directory og hvad gerdist i thvi
+git diff- synir mismun a milli data
