@@ -11,3 +11,6 @@ Hvað gera eftirfarandi Git skipanir?
     git status- synir upplysingar um vinnandi directory og hvad gerdist i thvi
     git diff- synir mismun a milli data
 
+  git log- naer i data 
+    git checkout- fer i mismundandi verion af file
+    git branch- setur data i serstakan stad, oftast master branch
