@@ -1,0 +1,8 @@
+- name: forsida
+  link: /
+
+- name: um mig
+  link: /about.html
+ 
+- name: git svor
+  link: /gitsvor.html
