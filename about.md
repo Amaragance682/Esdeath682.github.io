@@ -5,7 +5,7 @@ title: about
 
 ---
 
-ummigggs
+um subnatica tolvuleikin
 
-þetta er jekyll vefur sem unnir er i vefth2B
+subnautica er hryllingslegur sem tekur stad a geimveruplanetu og undirdjupum hennar
 [Git svor](verkefni1/svor.html)
