@@ -7,9 +7,9 @@
 main {
   color: white; }
 
-.body1 {
+body {
   background-color: #0064CE;
-  color: #444;
+  color: #fff;
   font: 400 1em/1.5 "Open Sans", sans-serif; }
 
 .body2 {
@@ -25,7 +25,8 @@ main {
 /*grid*/
 .col-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 3fr 1fr;
+  border: 1px solid; }
 
 .col-3 {
   display: grid;

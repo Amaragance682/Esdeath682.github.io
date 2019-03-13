@@ -4,11 +4,24 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" contents="E=edge">
     <title>{{page.title}}</title>
+    <link href="/assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    {% include navigation.html %}
-    <h1>{{page.title | upcase}}</h1>
+    <header>
+        {% include navigation.html %}
+        <h1>{{page.title | upcase}}</h1>
+    </header>
+    <section class="col-2">
+    <main>
     {{ content }}
+    </main>
+    <aside>
+            {% include advert.html %}
+    </aside>
+    </section>
+    <footer>
+        &copy; footer
+    </footer>
 </body>
 </html> 
 
