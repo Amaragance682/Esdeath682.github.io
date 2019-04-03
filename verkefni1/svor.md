@@ -27,3 +27,25 @@ thetta er jekyll vefur sem unnir er i vefth2B
     * 5.getad vendad files og nad i previous versions af files
     * 6.hvenaer sem thu gerdir enhv sem vaeri erfitt ad muna
     * 7.file med gamlar versions af files
+
+### Taflan
+
+<table>
+  <caption>Statement Summary</caption>
+  <thead>
+    <tr>
+      <th scope="col">Account</th>
+      <th scope="col">Due Date</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Period</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Visa - 3412</td>
+      <td>04/01/2016</td>
+      <td>$1,190</td>
+      <td>03/01/2016</td>
+    </tr>
+  </tbody>
+</table>
