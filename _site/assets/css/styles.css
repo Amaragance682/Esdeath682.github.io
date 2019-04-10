@@ -248,8 +248,9 @@ blockquote u1 {
   100% {
     left: 0px;
     top: 0px; } }
-SS Result
-EDIT ON
+@media screen and (max-width: 48em) {
+  body {
+    grid-template-columns: 3fr 1fr; } }
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.25; }
