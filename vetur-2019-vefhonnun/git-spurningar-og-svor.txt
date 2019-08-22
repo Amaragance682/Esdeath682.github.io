@@ -7,3 +7,7 @@ mkdir - býr til möppu
 git clone- afritar data eda file
 git status- synir upplysingar um vinnandi directory og hvad gerist i thvi
 git diff-synir mismun a files eda data
+
+git log- naer i data 
+git checkout- fer i mismundandi verion af file
+git branch- setur data i serstakan stad, oftast master branch
