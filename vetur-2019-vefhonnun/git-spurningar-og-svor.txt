@@ -3,3 +3,7 @@ cd - er notað til að breyta staðsettninguni þinni á drifinu
 ls -sýnir hvar þú ert í tölvunni
 pwd - Print current directory, sýnir slóðina sem þú ert á
 mkdir - býr til möppu
+
+git clone- afritar data eda file
+git status- synir upplysingar um vinnandi directory og hvad gerist i thvi
+git diff-synir mismun a files eda data
