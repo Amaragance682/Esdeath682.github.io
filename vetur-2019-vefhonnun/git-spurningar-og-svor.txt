@@ -13,3 +13,4 @@ git checkout- fer i mismundandi verion af file
 git branch- setur data i serstakan stad, oftast master branch
 
 4.apparat sem heldur um previous version af software
+5.getad vendad files og nad i previous versions af files
