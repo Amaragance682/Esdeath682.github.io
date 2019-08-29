@@ -16,3 +16,5 @@ git branch- setur data i serstakan stad, oftast master branch
 5.getad vendad files og nad i previous versions af files Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
  mér finnst það frábært
 7. thetta er lokaparturinn ad verkefni 1
+8.auka commit sem fer a github serverinn minn
+
