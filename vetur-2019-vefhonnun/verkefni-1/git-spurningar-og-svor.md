@@ -14,4 +14,5 @@ git branch- setur data i serstakan stad, oftast master branch
 
 4.apparat sem heldur um previous version af software
 5.getad vendad files og nad i previous versions af files Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
- .. **bættu við þínu áliti hér**
+ mér finnst það frábært
+
