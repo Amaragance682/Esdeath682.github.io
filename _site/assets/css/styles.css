@@ -1,5 +1,15 @@
-h1 { color: blue; }
+h1 { color: orange; }
 
 .current { color: red; }
+
+body { background-color: #5e308b; color: white; }
+
+nav { text-align: center; }
+
+a { color: plum; }
+
+header { text-align: center; }
+
+.collums { display: grid; grid-template-areas: "col1","col2","col3"; }
 
 /*# sourceMappingURL=styles.css.map */

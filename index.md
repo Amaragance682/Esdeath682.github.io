@@ -3,5 +3,9 @@ title: forsida
 layout: default
 ---
 
-#1 {{ "hallo heimur"| upcase }}
-#2 {{ "thetta er onnur sidan" }}
+# {{ "hallo heimur"| upcase }}
+
+## {{ "thetta er onnur sidan" }}
+
+Thetta er malsgrein
+

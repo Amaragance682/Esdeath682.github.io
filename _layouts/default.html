@@ -7,10 +7,23 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
   </head>
+  <header>
+    <collums>
+      <col1>
+        <p>haegri texti</p>
+      </col1>
+      <col2>
+      <h1>her er headerinn a ollum sidunum</h1>
+      </col2>
+      <col3>
+        <p>vinstri texti</p>
+      </col3>
+    </collums>
+  </header>
   <body>
     {% include navigation.html %}
     {{ content }}
-    <footer>
-      <hr>&copy; olisaer </footer>
+    {% include footer.html %}
+      
   </body>
 </html>

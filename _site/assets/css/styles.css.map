@@ -3,12 +3,12 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"_sass/main.scss"
+		"../../Desktop/Esdeath682.github.io/_sass/main.scss"
 	],
 	"sourcesContent": [
 		"@import 'main';",
-		"h1 {\r\n    color: blue;\r\n}\r\n.current{\r\n    color: red;\r\n}"
+		"h1 {\r\n    color: orange;\r\n}\r\n.current{\r\n    color: red;\r\n}\r\nbody {\r\n    background-color: rgb(94, 48, 139);\r\n    color:white;\r\n}\r\nnav {\r\n    text-align: center;\r\n}\r\na {\r\n    color: plum;\r\n}\r\nheader {\r\n    text-align: center;\r\n}\r\n.collums {\r\n    display: grid;\r\n    grid-template-areas: \"col1\",\"col2\",\"col3\";\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,EAAE,CAAC,EACC,KAAK,EAAE,IAAI,GACd;;AACD,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,GAAG,GACb"
+	"mappings": "ACAA,AAAA,EAAE,CAAC,EACC,KAAK,EAAE,MAAM,GAChB;;AACD,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,GAAG,GACb;;AACD,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,OAAgB,EAClC,KAAK,EAAC,KAAK,GACd;;AACD,AAAA,GAAG,CAAC,EACA,UAAU,EAAE,MAAM,GACrB;;AACD,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,IAAI,GACd;;AACD,AAAA,MAAM,CAAC,EACH,UAAU,EAAE,MAAM,GACrB;;AACD,AAAA,QAAQ,CAAC,EACL,OAAO,EAAE,IAAI,EACb,mBAAmB,EAAE,oBAAoB,GAC5C"
 }
