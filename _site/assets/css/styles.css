@@ -1,15 +1,53 @@
+* { box-sizing: border-box; }
+
 h1 { color: orange; }
+
+h2 { color: orange; }
 
 .current { color: red; }
 
-body { background-color: #5e308b; color: white; }
+body { background-color: #5f015f; color: white; }
 
-nav { text-align: center; }
+div.wrapper { max-width: 80em; margin: 0 auto; padding: 0; }
 
-a { color: plum; }
+nav { text-align: center; background-image: linear-gradient(to right, #5e308b, #51085f); padding-bottom: 0.5em; }
 
-header { text-align: center; }
+nav a { color: plum; padding: 0.5em; font-size: 30px; }
 
-.collums { display: grid; grid-template-areas: "col1","col2","col3"; }
+header { display: grid; text-align: center; grid-template-columns: 1fr, 3fr, 1fr; background-image: linear-gradient(to right, #5e308b, #51085f); }
+
+.art1 { grid-area: art1; padding: 1em; background-color: #880c88; }
+
+.as1 { grid-area: as1; background-color: #7a0c7a; }
+
+.as2 { grid-area: as2; background-color: #7a0c7a; }
+
+.mynd-1 { height: 18em; width: auto; }
+
+.mynd-2 { height: 15em; width: auto; }
+
+main { display: grid; grid-template-areas: "as2 art1 as1"; grid-template-columns: 1fr 4fr 1fr; }
+
+.author_oli { width: 30%; height: auto; }
+
+.author_camille { width: 40%; height: auto; }
+
+.author_zagara { width: 50%; height: auto; }
+
+footer { background-color: #530153; padding: 2em; }
+
+html { background-image: url(/assets/images/ceep-background.jpg); }
+
+div.texti-queen { padding: 1em; height: auto; }
+
+div.texti-drone { padding: 1em; height: auto; }
+
+@media screen and (max-width: 37.5em) { html { width: 50em; }
+  main { width: 50em; grid-template-areas: "as1 art1 as2"; display: grid; flex-flow: column; }
+  nav { flex-flow: row; text-align: center; width: 50em; }
+  header { width: 50em; }
+  div.wrapper { width: 50em; }
+  .as1 { grid-area: as1; background-color: #7a0c7a; width: 20em; }
+  .as2 { grid-area: as2; background-color: #7a0c7a; width: 20em; } }
 
 /*# sourceMappingURL=styles.css.map */

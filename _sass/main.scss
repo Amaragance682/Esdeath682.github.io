@@ -1,23 +1,125 @@
+* {
+    box-sizing: border-box;
+}
 h1 {
+    color: orange;
+}
+h2 {
     color: orange;
 }
 .current{
     color: red;
 }
 body {
-    background-color: rgb(94, 48, 139);
+    background-color: rgb(95, 1, 95);
     color:white;
+
+}
+div.wrapper{
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0;
 }
 nav {
     text-align: center;
+    background-image: linear-gradient(to right,  rgb(94, 48, 139), rgb(81, 8, 95));
+    padding-bottom: 0.5em;
 }
-a {
+nav a {
     color: plum;
+    padding: 0.5em;
+    font-size: 30px;
+
 }
 header {
-    text-align: center;
-}
-.collums {
     display: grid;
-    grid-template-areas: "col1","col2","col3";
+    text-align: center;
+    grid-template-columns: 1fr, 3fr, 1fr;
+    background-image: linear-gradient(to right,  rgb(94, 48, 139), rgb(81, 8, 95));
+}
+.art1 {
+    grid-area: art1;
+    padding: 1em;
+    background-color: rgb(136, 12, 136);
+}
+.as1 {
+    grid-area: as1;
+    background-color: rgb(122, 12, 122);
+}
+.as2 {
+    grid-area: as2;
+    background-color: rgb(122, 12, 122);
+}
+.mynd-1{
+    height: 18em;
+    width: auto
+}
+.mynd-2{
+    height: 15em;
+    width: auto
+}
+main {
+    display: grid;
+    grid-template-areas: "as2 art1 as1";
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.author_oli{
+    width: 30%;
+    height: auto;
+}
+.author_camille{
+    width: 40%;
+    height: auto;
+}
+.author_zagara{
+    width: 50%;
+    height: auto;
+}
+footer{
+    background-color: rgb(83, 1, 83);
+    padding: 2em;
+}
+html{
+    background-image: url(/assets/images/ceep-background.jpg)
+}
+div.texti-queen{
+    padding: 1em;
+    height: auto;
+}
+div.texti-drone{
+    padding: 1em;
+    height: auto;
+}
+@media screen and (max-width: 37.5em){
+    html{
+        width: 50em;
+    }
+    main{
+        width: 50em;
+        grid-template-areas: "as1 art1 as2";
+        display: grid;
+        flex-flow: column;
+    }
+
+    nav{
+        flex-flow: row;
+        text-align: center;
+        width: 50em;
+    }
+    header{
+        width: 50em;
+    }
+    div.wrapper{
+        width: 50em;
+    }
+    .as1 {
+        grid-area: as1;
+        background-color: rgb(122, 12, 122);
+        width: 20em;
+    }
+    .as2 {
+        grid-area: as2;
+        background-color: rgb(122, 12, 122);
+        width: 20em;
+    }    
 }

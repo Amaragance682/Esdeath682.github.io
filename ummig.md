@@ -2,6 +2,6 @@
 layout: default
 title: About
 ---
-# About page
+# Zerg Stats
 
-thessi sida segir ykkur um mig
+![Profile]({{ '/assets/images/sc2profile.PNG' }})
