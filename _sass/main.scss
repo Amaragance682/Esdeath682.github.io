@@ -24,6 +24,7 @@ nav {
     text-align: center;
     background-image: linear-gradient(to right,  rgb(94, 48, 139), rgb(81, 8, 95));
     padding-bottom: 0.5em;
+    padding-top: 1em;
 }
 nav a {
     color: plum;
@@ -75,6 +76,10 @@ main {
     width: 50%;
     height: auto;
 }
+.author_dio{
+    width: 50%;
+    height: auto;
+}
 footer{
     background-color: rgb(83, 1, 83);
     padding: 2em;
@@ -122,4 +127,33 @@ div.texti-drone{
         background-color: rgb(122, 12, 122);
         width: 20em;
     }    
+}
+.oli-icon{
+    width: 5%;
+}
+.oli-icon2{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5em;
+}
+.dio{
+    width: 100%;
+    padding: 2em;
+    
+}
+.dio-bread{
+    width: 100%;
+    padding: 2em;
+}
+.dio-face{
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dio-face2{
+    width: 10em;
+    height: 15em;
+    margin-left: auto;
+    margin-right: auto;
 }

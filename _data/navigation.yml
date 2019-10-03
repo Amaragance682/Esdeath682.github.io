@@ -1,4 +1,4 @@
-- name: Home
+- name: Home <span class="icon-home"> </span>
   link: /
 
 - name: um mig
@@ -9,3 +9,6 @@
 
 - name: starfsfolk
   link: /staff.html
+
+- name: vefsida :)
+  link: /dio.html
