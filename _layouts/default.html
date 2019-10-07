@@ -5,13 +5,14 @@
     <meta name="viewport" content = "width=device-width, initial scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.scss' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/_sass/main.scss' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/_sass/iconfont.scss' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/_sass/main.scss' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '\assets\css\styles.scss' | prepend: site.baseurl }}">
   </head>
   <body>
       {% include navigation.html %}
+      <div class="diofront">
       <img class="dio-face" src="/assets/images/dio-face.svg">
       <img class="dio-face" src="/assets/images/dio-face.svg">
       <img class="dio-face" src="/assets/images/dio-face.svg">
@@ -21,6 +22,7 @@
       <img class="dio-face" src="/assets/images/dio-face2.svg">
       <img class="dio-face" src="/assets/images/dio-face2.svg">
       <img class="dio-face" src="/assets/images/dio-face2.svg">
+      </div>
       
       <header>
           <h1>Síðan hans Óla</h1>
@@ -43,7 +45,7 @@
           <article class="art1">
               {{ content }}
           </article>
-          </main>
+        </main>
     <footer>
     {% include footer.html %}
       <img class="oli-icon" src="/assets/images/logo.svg">

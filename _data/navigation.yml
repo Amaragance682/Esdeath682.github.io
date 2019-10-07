@@ -1,14 +1,14 @@
 - name: Home <span class="icon-home"> </span>
   link: /
 
-- name: um mig
+- name: um mig <span class="icon-user"> </span>
   link: /ummig.html
  
-- name: frettir
+- name: frettir <span class="icon-bubble2"> </span>
   link: /blog.html
 
-- name: starfsfolk
+- name: starfsfolk <span class="icon-users"> </span>
   link: /staff.html
 
-- name: vefsida :)
+- name: vefsida:) 
   link: /dio.html
