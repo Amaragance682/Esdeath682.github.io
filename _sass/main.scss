@@ -38,22 +38,22 @@ header {
 .art1 {
     padding: 1em;
     background-color: rgb(136, 12, 136);
-    max-width: 20em;
+    max-width: 100%em;
 }
 .as1 {
     background-color: rgb(122, 12, 122);
-    max-width: 20em;
+    width: 18em;
 }
 .as2 {
     background-color: rgb(122, 12, 122);
-    max-width: 100%;
+    width: 18em;
 }
 .mynd-1{
-    height: 18em;
+    height: 17.5em;
     width: auto
 }
 .mynd-2{
-    height: 15em;
+    height: 17.5em;
     width: auto
 }
 main {
@@ -80,14 +80,16 @@ main {
 footer{
     background-color: rgb(83, 1, 83);
     padding: 2em;
+    max-width: 100em;
 }
 div.texti-queen{
     padding: 1em;
-    height: auto;
+    height: 2em;
 }
 div.texti-drone{
     padding: 1em;
-    height: auto;
+    height: 2em;
+    align-content: center;
 }
 .oli-icon{
     width: 5%;
@@ -99,12 +101,12 @@ div.texti-drone{
     padding-bottom: 5em;
 }
 .dio{
-    width: 100%;
+    width: 90em;
     padding: 2em;
     
 }
 .dio-bread{
-    width: 100%;
+    width: 90em;
     padding: 2em;
 }
 .dio-face{
@@ -116,6 +118,10 @@ div.texti-drone{
     width: 10em;
     height: 15em;
     margin-left: auto;
+    margin-right: auto;
+}
+div.diofront{
+    margin-left: 1em;
     margin-right: auto;
 }
 
