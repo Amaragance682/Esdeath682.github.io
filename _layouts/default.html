@@ -2,13 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content = "width=device-width, initial scale=1">
+    <meta name="viewport" content = "width=device-width, initial scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/_sass/main.scss' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '/_sass/iconfont.scss' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ '\assets\css\styles.scss' | prepend: site.baseurl }}">
   </head>
   <body>
       {% include navigation.html %}
@@ -36,15 +33,15 @@
                 </div>
               <img src="/assets/images/hlidamynd1.png" class="mynd-1">
           </aside>
+          <article class="art1">
+            {{ content }}
+          </article>
           <aside class="as2">
               <div class="texti-drone">
                   <a href="https://fontmeme.com/starcraft-font/"><img src="https://fontmeme.com/permalink/190923/51033af72ed7024d44c3bcb449ef2d3a.png" alt="starcraft-font" border="0"></a>
                   </div>
               <img src="/assets/images/hlidamynd2.jpg" class="mynd-2">
           </aside>
-          <article class="art1">
-              {{ content }}
-          </article>
         </main>
     <footer>
     {% include footer.html %}

@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 h1 {
     color: orange;
 }
@@ -16,9 +14,6 @@ body {
     margin: 0;
 }
 div.wrapper{
-    max-width: 80em;
-    margin: 0 auto;
-    padding: 0;
     background-color: rgba(94, 48, 139, .4)
 }
 nav {
@@ -41,17 +36,17 @@ header {
     background-image: linear-gradient(to right,  rgb(94, 48, 139), rgb(81, 8, 95));
 }
 .art1 {
-    grid-area: art1;
     padding: 1em;
     background-color: rgb(136, 12, 136);
+    max-width: 20em;
 }
 .as1 {
-    grid-area: as1;
     background-color: rgb(122, 12, 122);
+    max-width: 20em;
 }
 .as2 {
-    grid-area: as2;
     background-color: rgb(122, 12, 122);
+    max-width: 100%;
 }
 .mynd-1{
     height: 18em;
@@ -123,111 +118,5 @@ div.texti-drone{
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (min-width: 22em){
-    main{
-        width: 50em;
-    }
-    .diofront{
-        display: none;
-    }
-    nav{
-        width: 50em;
-    }
-    header{
-        width: 50em;
-    }
-    footer{
-        width: 50em;
-    }
-}
-@media screen and (min-width: 30em){
-    main{
-        width: 50em;
-        grid-template-areas: "as1 art1 as2";
-        display: flex;
-        flex-direction: column;
-    }
-    .diofront{
-        display: none;
-    }
-    header{
-        width: 50em;
-    }
-    footer{
-        width: 50em;
-    }
-}
 
-@media screen and (min-width: 37.5em){
-    html{
-        width: 50em;
-    }
-    main{
-        width: 50em;
-        grid-template-areas: "as1 art1 as2";
-        display: flex;
-        flex-direction: column;
-    }
-    footer{
-        width: 50em;
-    }
-
-    nav{
-        flex-flow: column;
-        text-align: center;
-        width: 50em;
-    }
-    header{
-        width: 50em;
-    }
-    div.wrapper{
-        width: 50em;
-    }
-    .as1 {
-        grid-area: as1;
-        background-color: rgb(122, 12, 122);
-        width: 20em;
-    }
-    .as2 {
-        grid-area: as2;
-        background-color: rgb(122, 12, 122);
-        width: 20em;
-    } 
-    .diofront{
-        display: none;
-    } 
-    .as1{
-        width: 10em;
-    }
-    .as2{
-        width: 10em;
-    }
-    .mynd-1{
-        width: 10em;
-        height: auto;
-    }
-    .mynd-2{
-        width: 10em;
-        height: auto;
-    }
-    div.texti-queen{
-        width: 5em;
-        height: auto;
-    }
-}
-@media screen and (min-width: 48em){
-    .as1{
-        width: 10em;
-    }
-    .as2{
-        width: 10em;
-    }
-    .mynd1{
-        width: 10em;
-    }
-    .mynd2{
-        width: 10em;
-    }
-
-}
 
