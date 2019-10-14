@@ -20,9 +20,9 @@ header { display: grid; text-align: center; grid-template-columns: 1fr, 3fr, 1fr
 
 .as2 { background-color: #7a0c7a; width: 18em; }
 
-.mynd-1 { height: 17.5em; width: auto; }
+.mynd-1 { height: 17.5em; width: auto; padding-top: 2em; }
 
-.mynd-2 { height: 17.5em; width: auto; }
+.mynd-2 { height: 17.5em; width: auto; padding-top: 2em; }
 
 main { display: grid; grid-template-areas: "as2 art1 as1"; grid-template-columns: 1fr 4fr 1fr; }
 
@@ -65,5 +65,39 @@ div.diofront { margin-left: 1em; margin-right: auto; }
 .icon-user:before { content: "\e971"; }
 
 .icon-users:before { content: "\e972"; }
+
+* { box-sizing: border-box; }
+
+nav { grid-area: nav; }
+
+header { grid-area: header; }
+
+main { grid-area: main; }
+
+footer { grid-area: footer; }
+
+.content { grid-area: content; }
+
+.art1 { grid-area: art1; }
+
+.as1 { grid-area: as1; }
+
+.as2 { grid-area: as2; }
+
+@media screen and (max-width: 25em) { .dio-face { display: none; }
+  body { width: 57em; margin-left: 1; margin-right: 1; }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+
+@media screen and (max-width: 30em) { .dio-face { display: none; }
+  body { width: 57em; margin-left: 1; margin-right: 1; }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+
+@media screen and (max-width: 48em) { .dio-face { display: none; }
+  body { width: 57em; margin-left: 1; margin-right: 1; }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+
+@media screen and (max-width: 60em) { body { width: 64em; margin-left: 1; margin-right: 1; }
+  .dio-face { display: none; }
+  .dio-face2 { margin-right: 27em; margin-left: 27em; } }
 
 /*# sourceMappingURL=styles.css.map */
