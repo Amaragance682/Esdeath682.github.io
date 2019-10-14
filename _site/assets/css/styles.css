@@ -85,18 +85,18 @@ footer { grid-area: footer; }
 .as2 { grid-area: as2; }
 
 @media screen and (max-width: 25em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1; margin-right: 1; }
+  body { width: 57em; margin-left: 1em; margin-right: 1em; }
   .dio-face2 { margin-right: 23em; margin-left: 23em; } }
 
 @media screen and (max-width: 30em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1; margin-right: 1; }
+  body { width: 57em; margin-left: 1em; margin-right: 1em; }
   .dio-face2 { margin-right: 23em; margin-left: 23em; } }
 
 @media screen and (max-width: 48em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1; margin-right: 1; }
+  body { width: 57em; margin-left: 1em; margin-right: 1em; }
   .dio-face2 { margin-right: 23em; margin-left: 23em; } }
 
-@media screen and (max-width: 60em) { body { width: 64em; margin-left: 1; margin-right: 1; }
+@media screen and (max-width: 60em) { body { width: 64em; margin-left: 1em; margin-right: 1em; }
   .dio-face { display: none; }
   .dio-face2 { margin-right: 27em; margin-left: 27em; } }
 
