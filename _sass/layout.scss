@@ -40,6 +40,10 @@ footer{
         margin-right: 23em;
         margin-left: 23em;
     }
+    nav a{
+        display: flex;
+        flex-flow: column;
+    }
 }
 @media screen and (max-width: 30em){
     .dio-face{
@@ -53,6 +57,10 @@ footer{
     .dio-face2{
         margin-right: 23em;
         margin-left: 23em;
+    }
+    nav a{
+        display: flex;
+        flex-flow: column;
     }
 }
 @media screen and (max-width: 48em){
@@ -68,6 +76,10 @@ footer{
         margin-right: 23em;
         margin-left: 23em;
     }
+    nav a{
+        display: flex;
+        flex-flow: column;
+    }
 }
 @media screen and (max-width: 60em){
     body{
@@ -82,6 +94,21 @@ footer{
         margin-right: 27em;
         margin-left: 27em;
     }
+    .dio-bread{
+        width: 64em;
+    }
+    .dio{
+        width: 64em;
+    }
 }
-@media screen and (min-width: 80em){
+@media screen and (max-width: 70em){
+    .dio-face{
+        display: none;
+    }
+    .dio-face2{
+        margin-right: 27em;
+        margin-left: 27em;
+    }
+}
+@media screen and (max-width: 80em){
 }

@@ -86,18 +86,26 @@ footer { grid-area: footer; }
 
 @media screen and (max-width: 25em) { .dio-face { display: none; }
   body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; }
+  nav a { display: flex; flex-flow: column; } }
 
 @media screen and (max-width: 30em) { .dio-face { display: none; }
   body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; }
+  nav a { display: flex; flex-flow: column; } }
 
 @media screen and (max-width: 48em) { .dio-face { display: none; }
   body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; } }
+  .dio-face2 { margin-right: 23em; margin-left: 23em; }
+  nav a { display: flex; flex-flow: column; } }
 
 @media screen and (max-width: 60em) { body { width: 64em; margin-left: 1em; margin-right: 1em; }
   .dio-face { display: none; }
+  .dio-face2 { margin-right: 27em; margin-left: 27em; }
+  .dio-bread { width: 64em; }
+  .dio { width: 64em; } }
+
+@media screen and (max-width: 70em) { .dio-face { display: none; }
   .dio-face2 { margin-right: 27em; margin-left: 27em; } }
 
 /*# sourceMappingURL=styles.css.map */
