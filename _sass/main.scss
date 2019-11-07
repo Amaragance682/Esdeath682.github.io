@@ -126,18 +126,96 @@ div.diofront{
     margin-left: 1em;
     margin-right: auto;
 }
+.icons{
+    width: 2em;
+    height: auto;
+}
+.apple{
+    width: 4em;
+    height: auto;
+}
 div.advert{
     padding-left: 1em;
 }
-.advertbackground{
-    max-width: 15em;
+.innihald{
+    background-color: white;
+    width: 15em;
     height: auto;
     overflow: hidden;
 }
+.h3{
+    color: black;
+}
+.h4{
+    color: black;
+}
+
 .imgjoseph{
     max-width: 12em;
     height: auto;
     align-self: center;
     right: 15em;
     
+}
+#advertbackground{
+    position: relative;
+    animation: intro 15s infinite;
+    animation-direction: alternate;
+}
+.imgjoseph{
+    position: relative;
+    animation: intro 15s infinite;
+    animation-direction: alternate;
+    animation-name: imgjoseph;
+}
+@keyframes imgjoseph{
+    0%{
+        left: -15em;
+
+    }
+    50%{
+        left: 0em;
+    }
+    100%{
+        left: -15em;
+    }
+}
+.apple{
+    position: relative;
+    animation: intro 15s infinite;
+    animation-direction: alternate;
+    animation-name: apple;
+    
+}
+@keyframes apple{
+    0%{
+        top: -15px;
+    }
+    50%{
+        top: 0px;
+    }
+    100%{
+        top: -15px;
+    }
+}
+.nice{
+    position: relative;
+    animation: intro 15s infinite;
+    animation-direction: alternate;
+    animation-name: nice;
+    
+}
+@keyframes nice{
+    0%{
+        right: -15em;
+    }
+    50%{
+        right: 0em;
+    }
+    100%{
+        right: -15em;
+    }
+}
+.nice{
+    max-width: 7em;
 }
