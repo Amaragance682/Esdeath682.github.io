@@ -24,8 +24,6 @@ header { display: grid; text-align: center; grid-template-columns: 1fr, 3fr, 1fr
 
 .mynd-2 { height: 17.5em; width: auto; padding-top: 2em; }
 
-main { display: grid; grid-template-areas: "as2 art1 as1"; grid-template-columns: 1fr 4fr 1fr; }
-
 .author_oli { width: 30%; height: auto; }
 
 .author_camille { width: 40%; height: auto; }
@@ -48,11 +46,11 @@ div.texti-drone { padding: 1em; height: 2em; align-content: center; }
 
 .dio-bread { width: 90em; padding: 2em; }
 
-.dio-face { width: 10em; margin-left: auto; margin-right: auto; }
+.dio-face { width: 10em; }
 
-.dio-face2 { width: 10em; height: 15em; margin-left: auto; margin-right: auto; }
+.dio-face2 { width: 10em; height: 15em; }
 
-div.diofront { margin-left: 1em; margin-right: auto; }
+.diofront { display: flex; justify-content: center; }
 
 .icons { width: 2em; height: auto; }
 
@@ -120,29 +118,13 @@ footer { grid-area: footer; }
 
 .as2 { grid-area: as2; }
 
-@media screen and (max-width: 25em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; }
-  nav a { display: flex; flex-flow: column; } }
+.dio-face { display: none; }
 
-@media screen and (max-width: 30em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; }
-  nav a { display: flex; flex-flow: column; } }
+.dio-face2 { margin: 0 auto; }
 
-@media screen and (max-width: 48em) { .dio-face { display: none; }
-  body { width: 57em; margin-left: 1em; margin-right: 1em; }
-  .dio-face2 { margin-right: 23em; margin-left: 23em; }
-  nav a { display: flex; flex-flow: column; } }
+main { display: grid; grid-template-areas: "as2" "art1" "as1"; grid-template-columns: 1fr; }
 
-@media screen and (max-width: 60em) { body { width: 64em; margin-left: 1em; margin-right: 1em; }
-  .dio-face { display: none; }
-  .dio-face2 { margin-right: 27em; margin-left: 27em; }
-  .dio-bread { width: 64em; }
-  .dio { width: 64em; } }
-
-@media screen and (max-width: 70em) { .dio-face { display: none; }
-  .dio-face2 { margin-right: 27em; margin-left: 27em; } }
+@media screen and (min-width: 60em) { main { display: grid; grid-template-areas: "as2 art1 as1"; grid-template-columns: 1fr 4fr 1fr; } }
 
 #menuToggle { display: flex; flex-direction: column; position: relative; top: 25px; left: 25px; z-index: 1; -webkit-user-select: none; user-select: none; }
 

@@ -58,11 +58,7 @@ header {
     width: auto;
     padding-top: 2em;
 }
-main {
-    display: grid;
-    grid-template-areas: "as2 art1 as1";
-    grid-template-columns: 1fr 4fr 1fr;
-}
+
 .author_oli{
     width: 30%;
     height: auto;
@@ -113,18 +109,14 @@ div.texti-drone{
 }
 .dio-face{
     width: 10em;
-    margin-left: auto;
-    margin-right: auto;
 }
 .dio-face2{
     width: 10em;
     height: 15em;
-    margin-left: auto;
-    margin-right: auto;
 }
-div.diofront{
-    margin-left: 1em;
-    margin-right: auto;
+.diofront{
+    display: flex;
+    justify-content: center;
 }
 .icons{
     width: 2em;

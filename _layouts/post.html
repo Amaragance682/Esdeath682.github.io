@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
+
 <h1>{{ page.title }}</h1>
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page author | first %}
-    {% if author %}
-      - <a href="{{ author.url | prepend: site.baseurl }}">{{ author.name }}</a>
-    {% endif %}
+<p>{{ page.date | date_to_string }} - <a href="{{site.baseurl}}/authors/{{page.author}}.html"> {{page.author}} </a></p>
     
   {{ content }}
     
