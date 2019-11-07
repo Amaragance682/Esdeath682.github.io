@@ -27,21 +27,35 @@ footer{
 .as2 {
     grid-area: as2;
 }
-
 .dio-face{
     display: none;
-}
-.dio-face2{
-    margin: 0 auto;
 }
 
 main {
     display: grid;
-    grid-template-areas: "as2" "art1" "as1";
+    grid-template-areas: "art1"  "as2"  "as1"; /* einn dálkur */
     grid-template-columns: 1fr;
 }
 
+@media screen and (min-width:48em) {
+
+    .dio-face{
+        display: block; 
+    }
+    main {
+        display: grid;
+        grid-template-areas: 
+            "as1 art1"
+            "as2 art1";  
+        grid-template-columns: 1fr 2fr; /* aside 1 og 2 saman í einum dálki */
+    }
+}
+
 @media screen and (min-width:60em) {
+    body {
+        max-width: 60em;
+        margin: 0 auto;
+    }
     main {
         display: grid;
         grid-template-areas: "as2 art1 as1";

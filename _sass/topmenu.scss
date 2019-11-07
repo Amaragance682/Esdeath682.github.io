@@ -1,0 +1,41 @@
+.topmenu {
+    position:fixed;
+    top: 1em; 
+    right:-15em;  /* ATH ! */
+    z-index: 99;
+    text-align: center;
+    background-image: linear-gradient(to right,  rgb(94, 48, 139), rgb(81, 8, 95));
+    padding: 1em;
+    transition: all .5s ease;  /* ATH ! */
+}
+.topmenu a {
+    display: block; /* ATH ! */
+    color: plum;
+    padding: 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-bottom: 1px solid plum;
+}
+.current{
+    color: red;
+}
+.menuinput {
+    display: none;   /* ATH ! */
+  }
+  .menulabel {
+    position: fixed;
+    top: .3em;
+    right: .3em;
+    font-size: 1.3em;
+    background-image: linear-gradient(to left,  rgb(94, 48, 139), rgb(81, 8, 95)); 
+    color: #fff;
+    padding:.3em; 
+    border: 1px solid white;
+    border-radius:50%;
+    z-index: 999;
+  }
+
+  /* tengi (menulabel+menuinput) við topmenu */
+  .menuinput:checked ~ .topmenu {
+    right: 0;   /* ATH ! topmenu fer -15 í 0 */
+  }
