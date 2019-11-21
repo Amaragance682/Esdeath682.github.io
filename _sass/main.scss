@@ -190,3 +190,24 @@ div.advert{
 .nice{
     max-width: 7em;
 }
+div.formcontain{
+    background-color: blue;
+    display: flex;
+    flex-flow: column;
+}
+.label{
+    padding: 0.5em;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: yellow;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
