@@ -8,96 +8,76 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
   </head>
   <body>
-
+      <input type="checkbox" id="toggle" class="menuinput">
+      <label for="toggle" class="menuLabel">&#9776;</label>
+      <div class="topmenu">
       {% include navigation.html %}
+      </div>
 
       <h4>her er formid</h4>
-      <div class="formcontain">
-        <article class="mainarticle">
-          <label>
-            Name
-            <input type="text"
-                    name="name"
-                    placeholder="Full name" 
-                    required autofocus title="skrifadu nafn">
+      <fieldset>
+        <legend>Sign in</legend>
+        <label><p>Notandanafn:</p>
+            <input required="" type="text" name="nafn" placeholder="Nafn her" autofocus="" title="Enter username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+            </label>
+        <label><p>Password:</p>
+            <input id="myPassword" required="" type="password" name="password" placeholder="8 stafir 1 number" title="Enter Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
           </label>
-          <label>
-            simanumer
-            <input type="text"
-                    name="simanumer"
-                    placeholder="fullt simanumer"
-                    required autofocus title="skrifadu simanumer">
-          </label>
-          <label>
-              tolvupostur
-              <input type="text"
-                      name="tolvupostur"
-                      placeholder="tolvupostur"
-                      required autofocus title="skrifadu tolvupost">
-          </label>
-          <label>
-              dagsettning
-              <input type="text"
-                      name="dagsettning"
-                      placeholder="dagsettning"
-                      required autofocus title="skrifadu dagsettningu">
-          </label>
-          <label>
-              simanumer
-              <input type="text"
-                      name="simanumer"
-                      placeholder="fullt simanumer"
-                      required autofocus title="skrifadu simanumer">
-          </label>
-          <label>
-            fjoldi
-            <input type="text"
-                    name="fjoldi"
-                    placeholder="veldu fjolda"
-                    required autofocus title="skrifadu fjolda">
-          </label>
-        </article>
-      </div>
-    <div class="table">
-      <table>
-        <tr>
-          <th>Meele</th>
-          <th>Ranged</th>
-          <th>Warframes</th>
-        </tr>
-        <tr>
-          <td>Spear</td>
-          <td>Rubico</td>
-          <td>Loki</td>
-        </tr>
-        <tr>
-          <td>Sword</td>
-          <td>Soma</td>
-          <td>Excalibur</td>
-        </tr>
-        <tr>
-          <td>Hammer</td>
-          <td>Boltor</td>
-          <td>Obreon</td>
-        </tr>
-        <tr>
-          <td>Axe</td>
-          <td>Hyma</td>
-          <td>Volt</td>
-        </tr>
-        <tr>
-          <td>Knife</td>
-          <td>Braton</td>
-          <td>Garuda</td>
-        </tr>
-        <tr>
-          <td>dagger</td>
-          <td>Kraken</td>
-          <td>Nidus</td>
-        </tr>
-      </table>
+         <label><p>gmail:</p>
+            <input required="" type="mail" name="gmail" placeholder="example@gmail.com" title="settu gmail">
+        </label>
+        <label>Date of birth
+            <input type="date" name="date of birth" required="">
+         </label>
+        <label>Phone Number
+            <input type="phonenumber" name="simanumer" pattern="[0-9]{10}">
+         </label>
+          
+        <p>Comment</p>
+        <textarea rows="4" name="comments"></textarea>
+
+    </fieldset>
     </div>
-    <footer>
+  <div class="table">
+    <table>
+      <tr>
+        <th>Meele</th>
+        <th>Ranged</th>
+        <th>Warframes</th>
+      </tr>
+      <tr>
+        <td>Spear</td>
+        <td>Rubico</td>
+        <td>Loki</td>
+      </tr>
+      <tr>
+        <td>Sword</td>
+        <td>Soma</td>
+        <td>Excalibur</td>
+      </tr>
+      <tr>
+        <td>Hammer</td>
+        <td>Boltor</td>
+        <td>Obreon</td>
+      </tr>
+      <tr>
+        <td>Axe</td>
+        <td>Hyma</td>
+        <td>Volt</td>
+      </tr>
+      <tr>
+        <td>Knife</td>
+        <td>Braton</td>
+        <td>Garuda</td>
+      </tr>
+      <tr>
+        <td>dagger</td>
+        <td>Kraken</td>
+        <td>Nidus</td>
+      </tr>
+    </table>
+  </div>
+  <footer>
         {% include footer.html %}
         <img class="oli-icon" src="/assets/images/logo.svg">
     </footer>  

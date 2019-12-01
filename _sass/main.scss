@@ -203,6 +203,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     color: yellow;
+    background-color: gray;
   }
   
   td, th {
@@ -210,4 +211,8 @@ table {
     text-align: left;
     padding: 8px;
   }
+fieldset{
+    color: red;
+    background-color: rgb(71, 3, 71);
+}
 
